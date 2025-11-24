@@ -6,7 +6,7 @@ async function searchCity() {
 
     // Step 1: Get latitude + longitude
     const geoURL =
-        `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${API_KEY}`;
+        `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${540a92034450d14ff02320ff85886e13}`;
 
     const geoRes = await fetch(geoURL);
     const geoData = await geoRes.json();
